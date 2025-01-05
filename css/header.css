@@ -1,0 +1,15 @@
+/* Header */
+#header {
+    color: white;
+}
+
+/* Scroll */
+.navbar-scroll {
+    background-color: #355592; 
+    transition: background-color 0.3s ease; 
+}
+
+.navbar-scroll .nav-menu a:hover {
+    background-color: var(--background-color-2);
+    transition: all 0.4s ease;
+}

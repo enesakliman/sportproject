@@ -1,0 +1,8 @@
+#pruchase .pruchase-info i {
+    font-size: 5rem;
+    color: #f29d0e;
+}
+
+#pruchase .add-to-card {
+    cursor: pointer;
+}

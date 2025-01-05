@@ -1,0 +1,36 @@
+#calculator .calculator-content h3{
+    color: #355592;
+}
+
+#calculator .calculator-content p{
+    color: #5c5c5c;
+}
+
+#calculator .calculator-content input {
+    border: 1px solid #5c5c5c;
+}
+
+#calculator .bmi-scroll {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#calculator img {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+#calculator .scroll-icon {
+    position: absolute;
+    bottom: -30px;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+
+}
+
+

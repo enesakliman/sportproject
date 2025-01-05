@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Sport Center</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header" class="fixed w-full top-0 z-50">
+      <div class="container mx-auto max-w-screen-lg px-4">
+        <nav id="navbar" class="w-full lg:max-w-screen-lg text-white flex items-center sm:justify-evenly lg:justify-between py-2 px-8 md:px-4">
+          <div class="logo flex items-center">
+            <a href="#hero">
+              <img src="./Resimler/logo.png" alt="Logo" class="w-auto max-h-12 sm:max-h-12 lg:max-h-16 lg:w-full" >
+            </a>
+          </div>
+          <div class="nav-menu hidden md:flex">
+            <ul class="flex gap-1 md:text-md lg:text-lg font-bold">
+              <li><a href="#hero" class="text-white hover:bg-darkBlue py-1.5 px-3 rounded">Home</a></li>
+              <li><a href="#classes" class="text-white hover:bg-darkBlue py-1.5 px-3 rounded">Classes</a></li>
+              <li><a href="#trainer" class="text-white hover:bg-darkBlue py-1.5 px-3 rounded">Trainer</a></li>
+              <li><a href="#review" class="text-white hover:bg-darkBlue py-1.5 px-3 rounded">Review</a></li>
+              <li><a href="#contact" class="text-white hover:bg-darkBlue py-1.5 px-3 rounded">Contact</a></li>
+              <li><a href="#" class="text-white bg-orange py-1.5 px-3 rounded hover:bg-darkBlue">JOIN US</a></li>
+            </ul>
+          </div>
+          <div class="nav-menu-icon sm:flex md:hidden ml-auto">
+            <button id="nav-button">
+              <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+          </div>
+        </nav>
+        <!-- Burger Menu -->
+        <div id="burger-menu" class="hidden bg-darkBlue w-full rounded">
+          <ul class="flex flex-col w-full p-3 text-xl">
+            <li><a href="#hero" class="text-xl font-semibold py-3">Home</a></li>
+            <li><a href="#classes" class="text-xl font-semibold py-3">Classes</a></li>
+            <li><a href="#trainer" class="text-xl font-semibold py-3">Trainer</a></li>
+            <li><a href="#review" class="text-xl font-semibold py-3">Review</a></li>
+            <li><a href="#contact" class="text-xl font-semibold py-3">Contact</a></li>
+            <li><a href="#" class="text-xl font-semibold py-3">JOIN US</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- Hero -->
+    <section id="hero" class="relative">
+      <div class="container mx-auto max-w-screen-lg px-4">
+        <div class="hero-content absolute bottom-5 md:bottom-10">
+          <h1 class="inline-block rounded text-white bg-darkBlue font-bold py-0.5 px-2 md:text-2xl ">POWERFUL</h1>
+          <h3 class="font-extrabold text-5xl md:text-7xl xl:text-8xl w-[23rem] md:w-[35rem]">
+            Group Practice with Trainer
+          </h3>
+          <p class="md:text-xl xl:text-3xl md:my-6 p-2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis necessitatibus, laudantium ea inventore similique quod dolor quis eum consequuntur ut. Laborum placeat assumenda maxime consequuntur at alias, ab libero distinctio?
+          </p>
+          <!-- Buttons -->
+          <div class="flex flex-col sm:w-full md:flex-row ">
+            <button id="btn-sign-up" class="my-1 md:m-5 bg-darkBlue text-2xl rounded py-1 px-2 font-semibold w-full md:w-auto">
+              Sign Up
+            </button>
+            <button id="btn-details" class="my-1 md:m-5 bg-transparent text-2xl rounded py-1 px-2 font-semibold w-full md:w-auto">
+              Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Details -->
+    <section id="details" class="bg-lightBlue">
+      <div class="container mx-auto max-w-screen-lg px-4">
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="details-info flex flex-col items-center mt-5 lg:mb-5 p-7 bg-textWhite">
+            <p class="text-darkBlue text-2xl font-black pb-5">325</p>
+            <h6 class="text-2xl font-black">Course</h6>
+          </div>
+          <div class="details-info flex flex-col items-center mt-5 lg:mb-5  p-7 bg-textWhite">
+            <p class="text-darkBlue text-2xl font-black pb-5">405</p>
+            <h6 class="text-2xl font-black">Work Out</h6>
+          </div>
+          <div class="details-info flex flex-col items-center mt-5 md:mb-5 lg:mb-5  p-7 bg-textWhite">
+            <p class="text-darkBlue text-2xl font-black pb-5">305</p>
+            <h6 class="text-2xl font-black">Working Hour</h6>
+          </div>
+          <div class="details-info flex flex-col items-center mt-5 mb-5 md:mb-5 lg:mb-5  p-7 bg-textWhite">
+            <p class="text-darkBlue text-2xl font-black pb-5">705</p>
+            <h6 class="text-2xl font-black">Happy Client</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Classes -->
+    <section id="classes">
+      <div class="clip-path"></div>
+      <div class="container mx-auto max-w-screen-lg px-4 py-5">
+        <div class="classes-general  flex flex-col items-center ">
+          <h2 class="mt-24 text-3xl sm:text-3xl md:text-5xl font-bold text-darkBlue">OUR CLASSES</h2>
+          <i class="fa-solid fa-minus"></i>
+          <p class="text-center font-semibold text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, corporis nulla blanditiis veritatis nostrum aliquam.</p>
+        </div>
+        <div class="classes-content">
+          <!-- Buttons -->
+          <div class="classes-btns flex justify-around">
+            <button id="yoga-btn" class="inline-block text-xl md:text-2xl py-2 px-3 lg:px-6 my-5 md:my-20 font-semibold bg-darkBlue hover:bg-orange rounded">Yoga</button>
+            <button id="group-btn" class="inline-block text-xl md:text-2xl py-2 px-3 lg:px-6 my-5 md:my-20 font-semibold bg-darkBlue hover:bg-orange rounded">Group</button>
+            <button id="solo-btn" class="inline-block text-xl md:text-2xl py-2 px-3 lg:px-6 my-5 md:my-20 font-semibold bg-darkBlue hover:bg-orange rounded">Solo</button>
+            <button id="stretch-btn" class="inline-block text-xl md:text-2xl py-2 px-3 lg:px-6 my-5 md:my-20 font-semibold bg-darkBlue hover:bg-orange rounded">Stretching</button>
+          </div>
+          <!-- Classes Content -->
+          <div class="yoga grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 ">
+            <div>
+              <h3 class="text-2xl font-bold mb-5">Why are your Yoga?</h3>
+              <p class="font-semibold mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id inventore molestias accusamus dolore, harum rerum rem at laboriosam labore dolorum voluptatem, quo placeat quod maiores facilis, itaque nesciunt reiciendis? Adipisci?</p>
+              <h3 class="text-2xl font-bold mb-5">When comes Yoga Your Time.</h3>
+              <ul>
+                <li class="font-semibold mb-5">Saturday - Sunday: 8:00am -10:00am</li>
+                <li class="font-semibold mb-5">Monday - Tuesday: 10:00am 12:00pm</li>
+                <li class="font-semibold mb-5">Wednesday - Friday: 3:00pm - 6:00pm</li>
+              </ul>
+            </div>
+            <div>
+              <img src="./Resimler/yoga.jpg" alt="" class="">
+            </div>
+          </div>
+          <div class="group grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 hidden">
+            <div class="">
+              <h3 class="text-2xl font-bold mb-5">Why are your Group?</h3>
+              <p class="font-semibold mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id inventore molestias accusamus dolore, harum rerum rem at laboriosam labore dolorum voluptatem, quo placeat quod maiores facilis, itaque nesciunt reiciendis? Adipisci?</p>
+              <h3 class="text-2xl font-bold mb-5">When comes Group Your Time.</h3>
+              <ul>
+                <li class="font-semibold mb-5">Saturday - Sunday: 8:00am -10:00am</li>
+                <li class="font-semibold mb-5">Monday - Tuesday: 10:00am 12:00pm</li>
+                <li class="font-semibold mb-5">Wednesday - Friday: 3:00pm - 6:00pm</li>
+              </ul>
+            </div>
+            <div>
+              <img src="./Resimler/group.webp" alt="" class="">
+            </div>
+          </div>
+          <div class="solo grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 hidden">
+            <div class="">
+              <h3 class="text-2xl font-bold mb-5">Why are your Solo?</h3>
+              <p class="font-semibold mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id inventore molestias accusamus dolore, harum rerum rem at laboriosam labore dolorum voluptatem, quo placeat quod maiores facilis, itaque nesciunt reiciendis? Adipisci?</p>
+              <h3 class="text-2xl font-bold mb-5">When comes Group Your Time.</h3>
+              <ul>
+                <li class="font-semibold mb-5">Saturday - Sunday: 8:00am -10:00am</li>
+                <li class="font-semibold mb-5">Monday - Tuesday: 10:00am 12:00pm</li>
+                <li class="font-semibold mb-5">Wednesday - Friday: 3:00pm - 6:00pm</li>
+              </ul>
+            </div>
+            <div>
+              <img src="./Resimler/solo.jpg" alt="" class="">
+            </div>
+          </div>
+          <div class="stretch grid grid-cols-1 md:grid-cols-2 gap-4 mt-6 hidden">
+            <div class="">
+              <h3 class="text-2xl font-bold mb-5">Why are your Stretching?</h3>
+              <p class="font-semibold mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id inventore molestias accusamus dolore, harum rerum rem at laboriosam labore dolorum voluptatem, quo placeat quod maiores facilis, itaque nesciunt reiciendis? Adipisci?</p>
+              <h3 class="text-2xl font-bold mb-5">When comes Group Your Time.</h3>
+              <ul>
+                <li class="font-semibold mb-5">Saturday - Sunday: 8:00am -10:00am</li>
+                <li class="font-semibold mb-5">Monday - Tuesday: 10:00am 12:00pm</li>
+                <li class="font-semibold mb-5">Wednesday - Friday: 3:00pm - 6:00pm</li>
+              </ul>
+            </div>
+            <div>
+              <img src="./Resimler/stret.webp" alt="" class="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BM Calculater -->
+    <section id="calculator" class="h-auto">
+      <div class="container mx-auto max-w-screen-lg px-4 my-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Calculator Info -->
+          <div class="calculator-content flex flex-col">
+            <h3 class="text-4xl font-black">BMI Calculator</h3>
+            <p class="text-xl font-semibold mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, perferendis! Fugit accusantium itaque ullam, officiis sit similique sunt voluptatem molestiae.</p>
+            <p class="text-xl font-semibold mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, perferendis! Fugit accusantium itaque ullam, officiis sit similique sunt voluptatem molestiae.</p>
+            <div>
+              <!-- Calculator Input -->
+              <input type="number" name="height" id="c-height" min="0" max="250" placeholder="Your Height" class="rounded p-1.5 w-1/3">
+              <label for="height"> cm</label>
+              <input type="number" name="weight" id="c-weight" min="0" max="250" placeholder="Your Weight" class="rounded p-1.5 w-1/3">
+              <label for="weight"> kg</label>
+            </div>
+          </div>
+          <!-- Calculator Result -->
+          <div class="calculator-result flex flex-col items-center">
+            <h6 class="text-2xl font-semibold">Your BMI <span id="bmi-span"></span></h6>
+              <div class="bmi-scroll">
+                <img src="./Resimler/bmi-index.jpg" alt="">
+                 <div class="scroll-icon hidden bg-orange"></div>
+              </div>
+          </div>
+        </div>
+          
+    </section>
+    <!-- Trainer -->
+    <section id="trainer" class="bg-lightBlue">
+      <div class="container mx-auto max-w-screen-lg px-4 py-5">
+        <div class="best-trainer flex flex-col items-center mb-10 py-10">
+          <h2 class="mt-24 text-3xl sm:text-3xl md:text-5xl font-bold text-darkBlue">OUR BEST TRAINER</h2>
+          <i class="fa-solid fa-minus"></i>
+          <p class="text-center font-semibold text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aut amet provident nemo, aperiam error.</p>
+        </div>
+        <!-- Trainer Card-Info -->
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 gap-12 mb-20 mx-10 md:mx-0">
+          <div class="trainer-card">
+            <div class="bg-cover-clip bg-darkBlue"></div>
+            <img src="./Resimler/trainer1.jpg" alt="">
+            <div class="trainer-info bg-darkBlue flex flex-col items-center">
+              <p class="font-bold text-lg p-2">Jennifer Lawrence</p>
+              <p class="font-semibold text-md p-2">Yoga Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <div class="bg-cover-clip bg-darkBlue"></div>
+            <img src="./Resimler/trainer2.jpg" alt="">
+            <div class="trainer-info bg-darkBlue flex flex-col items-center">
+              <p class="font-bold text-lg p-2">David Salah</p>
+              <p class="font-semibold text-md p-2">Fitness Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <div class="bg-cover-clip bg-darkBlue"></div>
+            <img src="./Resimler/trainer3.jpg" alt="">
+            <div class="trainer-info bg-darkBlue flex flex-col items-center">
+              <p class="font-bold text-lg p-2">Jane Doe</p>
+              <p class="font-semibold text-md p-2">Cardio Trainer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pruchase -->
+    <section id="pruchase">
+      <div class="container mx-auto max-w-screen-lg px-4 py-5">
+        <div class="pruchase-info flex flex-col items-center mt-5 lg:mb-5 p-7">
+          <h2 class="mt-24 text-3xl sm:text-3xl md:text-5xl font-bold text-darkBlue">PRUCHASE FROM US</h2>
+          <i class="fa-solid fa-minus"></i>
+          <p class="text-center font-semibold text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, maxime?</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 my-10">
+          <div class="rounded-lg shadow-xl flex flex-col justify-between items-center">
+            <img src="./Resimler/purchase1.jpg" alt="" class="rounded-lg">
+            <h6 class="font-bold">Kettlebell / 5kg</h6>
+            <p class="font-bold"><span class="line-through">89.99$ </span>/ 59.99$</p>
+            <div class="add-to-card flex flex-row items-center mx-7">
+              <i class="fa-regular fa-cart-shopping fa-xs"></i>
+              <p class="font-bold px-7 py-2">Add to Cart</p>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-xl flex flex-col justify-between items-center">
+            <img src="./Resimler/purchase2.jpg" alt="" class="rounded-lg">
+            <h6 class="font-bold">Treadmill</h6>
+            <p class="font-bold"><span class="line-through">899.99$ </span>/ 599.99$</p>
+            <div class="add-to-card flex flex-row items-center mx-7">
+              <i class="fa-regular fa-cart-shopping fa-xs"></i>
+              <p class="font-bold px-7 py-2">Add to Cart</p>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-xl flex flex-col justify-between items-center">
+            <img src="./Resimler/purchase3.jpg" alt="" class="rounded-lg">
+            <h6 class="font-bold">Adjustable Dumbbell</h6>
+            <p class="font-bold"><span class="line-through">89.99$ </span>/ 59.99$</p>
+            <div class="add-to-card flex flex-row items-center mx-7">
+              <i class="fa-regular fa-cart-shopping fa-xs"></i>
+              <p class="font-bold px-7 py-2">Add to Cart</p>
+            </div>
+          </div>
+          <div class="rounded-lg shadow-xl flex flex-col justify-between items-center">
+            <img src="./Resimler/purchase4.jpg" alt="" class="rounded-lg">
+            <h6 class="font-bold">Kettlebell / 3kg</h6>
+            <p class="font-bold"><span class="line-through">89.99$ </span>/59.99$</p>
+            <div class="add-to-card flex flex-row items-center mx-7">
+              <i class="fa-regular fa-cart-shopping fa-xs"></i>
+              <p class="font-bold px-7 py-2">Add to Cart</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review -->
+    <section id="review">
+      <div class="container mx-auto max-w-screen-lg px-4 py-5">
+        <div class="review-info flex flex-col items-center mt-5 lg:mb-5 p-7">
+          <h2 class="mt-24 text-3xl sm:text-3xl md:text-5xl font-bold text-darkBlue">REVIEW CLIENT</h2>
+          <i class="fa-solid fa-minus"></i>
+          <p class="text-center font-semibold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius possimus totam voluptatum exercitationem maiores!</p>
+        </div>
+        <div class="review-content grid grid-cols-1 md:grid-cols-2 gap-6 mb-20 md:mb-40">
+          <div>
+            <div class="flex flex-row items-center gap-4">
+              <img src="./Resimler/client1.jpg" alt="" class="rounded-full w-12 h-12 ml-5">
+              <div>
+                <p class="text-lg font-bold py-1">Diet Expert</p>
+                <p class="text-md py-1">CEO</p>
+              </div>
+            </div>
+            <div class="review-message bg-darkBlue p-3 m-4 relative">
+              <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sapiente eius aperiam ea provident, minus illo obcaecati perferendis est repellendus. Consequatur nisi a iusto illum nemo. Cupiditate odio sed eveniet?</p>
+              <div class="shadow-corner-right absolute bg-shadowBlue"></div>
+              <div class="shadow-corner-left absolute bg-shadowBlue"></div>
+            </div>
+          </div>
+          <div>
+            <div class="flex flex-row items-center gap-4">
+              <img src="./Resimler/client2.jpg" alt="" class="rounded-full w-12 h-12 ml-5">
+              <div>
+                <p class="text-lg font-bold py-1">Cardio Trainer</p>
+                <p class="text-md py-1">CEO</p>
+              </div>
+            </div>
+            <div class="review-message bg-darkBlue p-3 m-4 relative">
+              <p class="text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam sapiente eius aperiam ea provident, minus illo obcaecati perferendis est repellendus. Consequatur nisi a iusto illum nemo. Cupiditate odio sed eveniet?</p>
+              <div class="shadow-corner-right absolute bg-shadowBlue"></div>
+              <div class="shadow-corner-left absolute bg-shadowBlue"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+     <!-- Contact -->
+    <section id="contact">
+        <div class="container mx-auto max-w-screen-lg px-4 py-5">
+          <div class="contact-info flex flex-col items-center mt-5 lg:mb-5 p-7">
+            <h2 class="mt-24 text-3xl sm:text-3xl md:text-5xl font-bold text-darkBlue">CONTACT US</h2>
+            <i class="fa-solid fa-minus"></i>
+            <p class="text-center font-semibold text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius possimus totam voluptatum exercitationem maiores!</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div class="">
+              <div class="flex flex-row gap-4">
+                <div>
+                  <h3 class="text-xl font-medium">Mobile Number</h3>
+                  <p class="">+135 773 4442</p>
+                </div>
+                <div>
+                  <h3 class="text-xl font-medium">Email Address</h3>
+                  <p class="">demo@demo.com</p>
+                </div>
+              </div>
+              <!-- Form Input -->
+              <form class="flex flex-col my-10">
+                <h4 class="text-2xl font-medium">Make An Appoinment</h4>
+                <input class="my-3.5 px-4 py-1 bg-lightBlue" type="text" name="name" id="name" placeholder="Your Name" required>
+                <input class="my-3.5 px-4 py-1 bg-lightBlue" type="email" name="email" id="email" placeholder="Your Email" required>
+                <textarea class="my-3.5 px-4 py-1 bg-lightBlue" name="message" id="message" cols="25" rows="7" placeholder="Your Message" required></textarea>
+              </form>
+            </div>
+            <!-- IFrame -->
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2861.076847907292!2d12.206843276837585!3d44.18488341788045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca577e4082b4b%3A0xbadbd7f11cab7f29!2sSport%20Center!5e0!3m2!1str!2str!4v1735942437973!5m2!1str!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+    <!-- Footer -->
+    <footer id="footer" class="bg-darkBlue">
+        <div class="container mx-auto max-w-screen-lg px-4 py-2">
+          <div>
+            <img src="./Resimler/logo.png" alt="">
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste neque quod laborum reiciendis quas iusto optio beatae eos velit? Veniam ipsum earum voluptas, officia nihil adipisci in quo possimus quae!</p>
+          </div>
+          <div class="grid grid-cols-2 gap-10 justify-items-center">
+            <ul class="py-5">
+              <li class="text-2xl font-semibold">Information</li>
+              <li>About Us</li>
+              <li>Classes</li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+            <ul class="py-5">
+              <li class="text-2xl font-semibold">Helpful Links</li>
+              <li>Services</li>
+              <li>Supports</li>
+              <li>Terms & Condition</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

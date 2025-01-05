@@ -1,0 +1,18 @@
+@import '../css/header.css';
+@import '../css/hero.css';
+@import '../css/classes.css';
+@import '../css/calculator.css';
+@import '../css/trainer.css';
+@import '../css/pruchase.css';
+@import '../css/review.css';
+@import '../css/contact.css';
+@import '../css/footer.css';
+
+:root {
+    --backgorund-color-1: #355592;
+    --background-color-2: #f29d0e;
+    --text-color-1: #fff;
+    --text-color-2: #5c5c5c;
+}
+
+

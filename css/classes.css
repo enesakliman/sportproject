@@ -1,0 +1,83 @@
+#classes {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#classes .clip-path {
+    position: absolute;
+    inset: 0;
+    z-index: -10;
+    background-color: #f6f6f6;
+    clip-path: polygon(36% 0, 100% 0%, 100% 100%, 50% 100%);
+}
+
+#classes .classes-general i {
+    font-size: 5rem;
+    color: #f29d0e;
+}
+
+#classes .classes-general p {
+    color: var(--text-color-2);
+    max-width: 70%;
+}
+
+#classes .classes-btns button {
+    color: var(--text-color-1);
+    transition: all 0.3s;
+}
+
+
+
+/* Yoga */
+#classes .yoga h3 {
+    color: var(--text-color-2);
+}
+
+#classes .yoga p {
+    color: var(--text-color-2);
+}
+
+#classes .yoga li {
+    color: var(--text-color-2);
+}
+
+/* Group */
+#classes .group h3 {
+    color: var(--text-color-2);
+}
+
+#classes .group p {
+    color: var(--text-color-2);
+}
+
+#classes .group li {
+    color: var(--text-color-2);
+}
+
+/* Solo */
+#classes .solo h3 {
+    color: var(--text-color-2);
+}
+
+#classes .solo p {
+    color: var(--text-color-2);
+}
+
+#classes .solo li {
+    color: var(--text-color-2);
+}
+
+/* Stretching */
+#classes .stretch h3 {
+    color: var(--text-color-2);
+}
+
+#classes .stretch p {
+    color: var(--text-color-2);
+}
+
+#classes .stretch li {
+    color: var(--text-color-2);
+}
+

@@ -1,0 +1,55 @@
+#trainer .best-trainer i {
+    font-size: 5rem;
+    color: #f29d0e;
+}
+
+.trainer-card {
+    position: relative;
+    overflow: hidden;
+    width: 280px;
+    height: 350px;
+
+}
+
+.bg-cover-clip {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 35%, 35% 25%, 35% 0, 66% 0, 65% 25%, 100% 35%, 100% 65%, 75% 75%, 65% 100%, 35% 100%, 25% 75%, 0 65%);
+    transition: all 0.5s;
+}
+
+.trainer-card:hover .bg-cover-clip {
+    clip-path: polygon(0 25%, 25% 25%, 25% 0, 75% 0, 75% 25%, 100% 25%, 100% 75%, 75% 75%, 75% 100%, 25% 100%, 25% 75%, 0 75%);
+    transition: clip-path 0.5s ease-in-out;
+}
+
+
+.trainer-card img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 96%;
+    height: 97%;
+    object-fit: center;
+    transition: all 0.5s;
+    border: 2px solid #f29d0e;
+    border-radius: 10px;
+}
+
+.trainer-info {
+    position: absolute;
+    bottom: -200px;
+    right: 1.5rem;
+    left: 1.5rem;
+    padding: 10px;
+    color: white;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    transition: all 0.7s;
+}
+
+.trainer-card:hover .trainer-info {
+    bottom: 2rem;
+}
+
+

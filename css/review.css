@@ -1,0 +1,29 @@
+#review {
+    background-color: #f1f8ff;
+}
+
+#review .review-info i {
+    font-size: 5rem;
+    color: #f29d0e;
+}
+
+#review .review-message {
+    color: white;
+}
+
+#review .shadow-corner-right {
+    width: 50%;
+    height: 40px;
+    right: 0;
+    bottom: -40px;
+    clip-path: polygon(80% 0, 80% 100%, 100% 0);
+    
+}
+
+#review .shadow-corner-left {
+    width: 50%;
+    height: 40px;
+    left: 0;
+    bottom: -40px;
+    clip-path: polygon(20% 0, 20% 100%, 0 0);
+}
