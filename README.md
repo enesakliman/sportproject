@@ -16,12 +16,40 @@ https://lively-syrniki-42d05d.netlify.app
 
 - I worked with Vite.
 
-  
-## Ekran Görüntüleri
 
-![Uygulama Ekran Görüntüsü](gorunum/mobil.png)
-![Uygulama Ekran Görüntüsü](gorunum/mobil2.png)
-![Uygulama Ekran Görüntüsü](gorunum/sport-center.png)
-![Uygulama Ekran Görüntüsü](gorunum/sport-center2.png)
+## Run on Your Computer:
+
+Clone the project:
+
+```bash
+  git clone https://github.com/enesakliman/sportproject.git
+```
+
+Go to the project folder:
+
+```bash
+  cd my-project
+```
+
+Start the development server:
+
+```bash
+  npm run dev
+```
+
+Open the browser and go to:
+
+```bash
+  http://localhost:5173
+```
+
+  
+  
+## Screenshots
+
+![Screenshots](gorunum/mobil.png)
+![Screenshots](gorunum/mobil2.png)
+![Screenshots](gorunum/sport-center.png)
+![Screenshots](gorunum/sport-center2.png)
 
   
