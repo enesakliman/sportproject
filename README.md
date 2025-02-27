@@ -1,23 +1,27 @@
 # Project Sport Center
-## Live  Server
+
+It was created using HTML, CSS, and JavaScript. It was designed as a simple introduction website. Internal linking is included on the web page.
+
+
+## Project Links
+
 https://lively-syrniki-42d05d.netlify.app
 
-## HTML, CSS and JavaScript 
+  
+## Technologies Used
 
-It is a project created using HTML, CSS and JavaScript. 
+- HTML, CSS, and JavaScript were used.
 
-#### I used TailwindCSS as the CSS library.
-Lastly, I worked with Vite.
+- I used Tailwind CSS as the CSS library.
 
-### I created a structure that can be used with all devices.
+- I worked with Vite.
 
-![Mobil1](gorunum/mobil.png) ![Mobil1](gorunum/mobil2.png)
-![Mobil1](gorunum/sport-center.png) ![Mobil1](gorunum/sport-center2.png)
+  
+## Ekran Görüntüleri
 
+![Uygulama Ekran Görüntüsü](gorunum/mobil.png)
+![Uygulama Ekran Görüntüsü](gorunum/mobil2.png)
+![Uygulama Ekran Görüntüsü](gorunum/sport-center.png)
+![Uygulama Ekran Görüntüsü](gorunum/sport-center2.png)
 
-
-
-
-
-
-
+  
